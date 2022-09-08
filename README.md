@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+## ![Logo](./public/ta_favicon.png) Game Match
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Game Match** A tabletop gaming matchmaker.
 
-## Available Scripts
+Filling the gap between needing another player and finding one. Users can post a game they want to play and other users can respond to that post. Users can also search for games in their area and interest.
 
-In the project directory, you can run:
+**Check it out here:** [https://shimmering-gnome-6c82a9.netlify.app/](https://shimmering-gnome-6c82a9.netlify.app/posts)
 
-### `npm start`
+[![Screenshot of TITLE](./gmss1.png)](https://shimmering-gnome-6c82a9.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How It's Made
 
-### `npm test`
+**Tech used:** React, React-Icons, Material-UI, Express, NodeJS, MongoDB, JSX, HTML, CSS, JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was made using React, React-Icons, Material-UI, Express, NodeJS, MongoDB, JSX, HTML, CSS, JavaScript. The frontend was made using React and Material-UI. The backend was made using Express and NodeJS. The database was made using MongoDB.
 
-### `npm run build`
+It was started as a learning exercise, but I have plans to continue working on it. I would like to add a profile page for users to edit their information and add friends, and send messages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features and Functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| _Feature_       | _Description_                                    |
+| --------------- | ------------------------------------------------ |
+| **Register**    | Users can Register a new account                 |
+| **Login**       | Users can login using their credentials          |
+| **Add Post**    | Logged in users can create a post                |
+| **Edit Post**   | Logged in users can edit their own posts         |
+| **Delete Post** | Logged in users can Delete their own posts       |
+| **Update Post** | Logged in users can Update their own posts       |
+| **Like Post**   | Posts can be liked by users, once per user       |
+| **Search Post** | Posts are fully searchable using the search bar. |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Optimizations
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+There is a routing bug where it won't let you signin, it keeps showing the posts. I'm working on fixing that.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I'm working on adding profile screens where users can set more information about themselves, add friends, and send messages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Long term goal is adding a map view to show where users are located.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Google Authentication coming soon.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Lessons Learned:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I learned more about how to structure the back end for a full stack application. I learned how to use MongoDB and Mongoose to create a database. I learned how to use React Router to create a multi-page application. I learned how to use Material-UI to style the application.
 
-### Code Splitting
+I also learned how to structure the front end to communicate with the back end, especially for searching posts. I learned how to use React Hooks to manage state. I learned how to use React Icons to add icons to the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Copyright
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+All code in this project is ©Thomas Gooch. All rights reserved.
 
-### Making a Progressive Web App
+Feel free to examine the code for educational purposes, but please note that no license is granted for use or modification of any part of this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Other Projects:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Take a look at these other awesome projects from my portfolio:
 
-### Deployment
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**TITLE** [https://github.com](https://github.com/)
 
-### `npm run build` fails to minify
+[![Screenshot of TITLE]()](https://example.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
